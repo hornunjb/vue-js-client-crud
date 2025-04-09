@@ -57,7 +57,7 @@
   import TutorialDataService from "../services/TutorialDataService";
   
   export default {
-    name: "tutorial-main",
+    name: "tutorial", //eslint-disable-line
     data() {
       return {
         currentTutorial: null,
